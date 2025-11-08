@@ -27,7 +27,7 @@ const Contact = () => {
     {
       icon: '📍',
       title: 'Address',
-      info: '123 Business Street, City, State 12345'
+      info: 'pachipenta, parvathipuram, Andhra Pradesh, India'
     },
     {
       icon: '📧',
@@ -37,7 +37,7 @@ const Contact = () => {
     {
       icon: '📞',
       title: 'Phone',
-      info: '+1 (555) 123-4567'
+      info: '+91 8328096700'
     }
   ]
 
