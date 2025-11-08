@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="circleGradient" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#f5f5dc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8d8;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#circleGradient)" stroke="#d0d0c0" stroke-width="2"/>
+  
+  <!-- Top Arc Text -->
+  <text x="100" y="40" font-family="serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">
+    THE QUALITY PRODUCTS
+  </text>
+  
+  <!-- Green Plant Stem -->
+  <path d="M 50 60 Q 100 100 150 140" stroke="#2d5016" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Green Leaves at Top -->
+  <ellipse cx="60" cy="55" rx="15" ry="25" fill="#2d5016" transform="rotate(-30 60 55)"/>
+  <ellipse cx="140" cy="55" rx="15" ry="25" fill="#2d5016" transform="rotate(30 140 55)"/>
+  
+  <!-- Mango -->
+  <ellipse cx="70" cy="90" rx="12" ry="18" fill="#ffa500"/>
+  <path d="M 70 72 Q 68 70 66 72" stroke="#228b22" stroke-width="2" fill="none"/>
+  
+  <!-- Cashew -->
+  <ellipse cx="100" cy="110" rx="10" ry="15" fill="#d2b48c" transform="rotate(-20 100 110)"/>
+  
+  <!-- Maize -->
+  <rect x="125" y="100" width="15" height="25" rx="3" fill="#ffd700"/>
+  <circle cx="130" cy="110" r="2" fill="#000"/>
+  <circle cx="135" cy="110" r="2" fill="#000"/>
+  <path d="M 127 105 Q 132 102 137 105" stroke="#ff0000" stroke-width="1.5" fill="none"/>
+  
+  <!-- Tamarind -->
+  <ellipse cx="150" cy="130" rx="8" ry="12" fill="#8b4513"/>
+  <ellipse cx="155" cy="128" rx="6" ry="10" fill="#8b4513"/>
+  <path d="M 152 120 Q 150 118 148 120" stroke="#228b22" stroke-width="1.5" fill="none"/>
+  
+  <!-- Center GOSUKA Text -->
+  <text x="100" y="105" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#333" text-anchor="middle" opacity="0.9">
+    GOSUKA
+  </text>
+</svg>
+
