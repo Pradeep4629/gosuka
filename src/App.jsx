@@ -5,11 +5,13 @@ import About from './components/About'
 import Catalog from './components/Catalog'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import VideoBackground from './components/VideoBackground'
 import './App.css'
 
 function App() {
   return (
     <div className="App">
+      <VideoBackground />
       <Navbar />
       <Hero />
       <About />

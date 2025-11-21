@@ -1,5 +1,8 @@
 .footer {
-  background: var(--text-dark);
+  background: rgba(31, 41, 55, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: white;
   padding: 60px 0 20px;
 }
@@ -109,4 +112,3 @@
     text-align: center;
   }
 }
-

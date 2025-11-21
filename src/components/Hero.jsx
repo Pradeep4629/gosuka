@@ -1,5 +1,5 @@
 import React from 'react'
-import FallingLeaves from './FallingLeaves'
+// import FallingLeaves from './FallingLeaves'
 import './Hero.css'
 
 const Hero = () => {
@@ -12,14 +12,14 @@ const Hero = () => {
 
   return (
     <section id="hero" className="hero">
-      <FallingLeaves />
+      {/* <FallingLeaves /> */}
       <div className="container">
         <div className="hero-content">
           <h1 className="hero-title">
             Welcome to <span className="highlight">GOSUKA</span>
           </h1>
           <p className="hero-subtitle">
-            Your trusted partner for innovative business solutions. 
+            Your trusted partner for innovative business solutions.
             We help businesses grow and succeed in the digital age.
           </p>
           <div className="hero-buttons">

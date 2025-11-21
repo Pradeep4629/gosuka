@@ -22,6 +22,11 @@ const Catalog = () => {
       icon: '🌽',
       title: 'Maize',
       description: 'Quality maize grains, carefully selected and stored. Versatile crop suitable for various uses including food production and animal feed.'
+    },
+    {
+      icon: '🍏',
+      title: 'Custard Apple',
+      description: 'Sweet and creamy custard apples, hand-picked for premium quality. Known for their delightful taste and rich nutritional value.'
     }
   ]
 
